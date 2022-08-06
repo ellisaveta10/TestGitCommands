@@ -11,5 +11,12 @@ public class IndexController implements IndexRepository{
         System.out.println(message);
     }
 
+    @Override
+    public void printIdAndName(String id, String name) {
+        id = "1";
+        name = "Here is the service layer";
+        System.out.println(id + " " + name);
+    }
+
 
 }
