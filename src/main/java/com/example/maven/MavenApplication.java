@@ -9,6 +9,7 @@ public class MavenApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MavenApplication.class, args);
 		System.out.println("Hello, world");
+		System.out.println("This message will be added t the stage area and then removed!");
 	}
 
 }
