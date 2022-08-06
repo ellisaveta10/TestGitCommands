@@ -11,6 +11,11 @@ public class IndexController implements IndexRepository{
         System.out.println(message);
     }
 
+    /**
+     * This method prints the id and the name
+     * @param id
+     * @param name
+     */
     @Override
     public void printIdAndName(String id, String name) {
         id = "1";
