@@ -10,4 +10,6 @@ public class IndexController implements IndexRepository{
         message = "New message";
         System.out.println(message);
     }
+
+
 }
