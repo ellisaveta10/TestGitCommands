@@ -3,7 +3,8 @@ package com.example.maven;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-    public class IndexController implements IndexRepository {
+
+public class IndexController implements IndexRepository{
 
         @Override
         public void printMessage(String message) {
@@ -24,4 +25,3 @@ import org.springframework.web.bind.annotation.RestController;
             System.out.println(id + " " + name);
         }
     }
-
