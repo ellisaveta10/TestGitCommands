@@ -24,4 +24,5 @@ public class IndexController implements IndexRepository{
     }
 
 
+    public static final int AGE = 22;
 }
